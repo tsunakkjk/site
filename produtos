@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            margin: 15px 0;
+            font-size: 18px;
+        }
+
+        .product p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .product button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .product button:hover {
+            background-color: #555;
+        }
+
+        footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    bottom: 0;
+    width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Minha Loja Online</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+</header>
+
+<div class="products">
+    <div class="product">
+        <img src="https://beautywaymag.com/wp-content/uploads/2021/09/helix-jewelry-1024x1024.jpg" alt="Colar">
+        <h3>Produto: Piercing do helix</h3>
+        <p>Piercing para o helix</p>
+        <p><strong>R$ 50,00</strong></p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product">
+        <img src="https://photos.enjoei.com.br/piercing-argola-para-aba-nasal-em-prata-legitima-925-com-zirconia/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMTc4NTM1Ny9jODJlNTZlNjQ1YjJlMjUwZDQ5YjgzMDZhNDU0ODAyYy5qcGc" alt="Colar">
+        <h3>Produto: Piercing para aba nasal</h3>
+        <p>Piercing de aba nasal argola</p>
+        <p><strong>R$ 100,00</strong></p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product">
+        <img src="https://th.bing.com/th/id/OIP.lh3Fr1CTQG7IowLIJP_NSAHaHd?rs=1&pid=ImgDetMain" alt="Colar">
+        <h3>Produto: Piercing de raio para tragus</h3>
+        <p>Piercing de raio para sua perfuração no tragus</p>
+        <p><strong>R$ 130,00</strong></p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.tcdn.com.br/img/img_prod/741411/corrente_de_prata_925_cingapura_com_bolinhas_45cm_1657_1_20200721151857.jpg" alt="Colar">
+        <h3>Produto: Correntinha em prata 925</h3>
+        <p>Correntinha de prata cravejada 925</p>
+        <p><strong>R$ 170,00</strong></p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_606788-MLB30501047135_052019-O.jpg" alt="Colar">
+        <h3>Produto: Piercing do conch</h3>
+        <p>Piercing de argola para sua perfuração do conch</p>
+        <p><strong>R$ 180,00</strong></p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="product">
+        <img src="https://i.pinimg.com/736x/55/66/cd/5566cd0efdfb13f19ad1bccbf4c760f5.jpg" alt="Colar">
+        <h3>Produto: Piercing de flor para helix</h3>
+        <p>Piercing de flor para sua perfuração do helix</p>
+        <p><strong>R$ 100,00</strong></p>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+</div>
+
+</body>
+</html>
