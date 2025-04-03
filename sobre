@@ -95,6 +95,24 @@
     </nav>
 </header>
 
+<section id="sobre-loja">
+    <h1>Sobre a Nossa Loja</h1>
+    <p>Bem-vindo à nossa loja online! Somos uma empresa dedicada a oferecer produtos de qualidade e um excelente atendimento ao cliente. Nossa missão é proporcionar uma experiência de compra única, com facilidade, segurança e entrega rápida.</p>
+
+    <h2>Quem Somos</h2>
+    <p>A nossa loja foi fundada em 2025 e tem como objetivo atender clientes que buscam joiás. Trabalhamos com os melhores fornecedores para garantir que nossos produtos atendam aos mais altos padrões de qualidade e inovação.</p>
+
+    <h2>Nosso Compromisso</h2>
+    <p>Estamos comprometidos em oferecer a melhor experiência de compra online, com um atendimento de primeira linha, produtos de qualidade e preços competitivos. Estamos sempre atualizando nosso estoque para trazer as últimas tendências e novidades para nossos clientes.</p>
+
+    <h2>Por que Escolher Nossa Loja?</h2>
+    <ul>
+        <li>Entrega rápida e segura</li>
+        <li>Suporte ao cliente disponível 24/7</li>
+        <li>Pagamentos seguros</li>
+        <li>Variedade de produtos de alta qualidade</li>
+    </ul>
+</section>
 
 </body>
 </html>
