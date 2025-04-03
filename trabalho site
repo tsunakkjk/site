@@ -76,8 +76,8 @@
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 15px 0;
-            position: absolute;
+            padding: 5px 0;
+            position: fixed;
             bottom: 0;
             width: 100%;
         }
@@ -88,10 +88,10 @@
 <header>
     <h1>Minha Loja Online</h1>
     <nav>
-        <a href="#">Início</a>
-        <a href="#">Produtos</a>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
     </nav>
 </header>
 
@@ -104,16 +104,16 @@
         <button>Adicionar ao Carrinho</button>
     </div>
     <div class="product">
-        <img src="https://via.placeholder.com/250" alt="Produto 2">
-        <h3>Produto 2</h3>
-        <p>Descrição do produto 2</p>
+        <img src="https://tudocommoda.com/wp-content/uploads/2020/05/4-anel-em-ouro-amarelo-com-pedra-de-rubi-grande.jpg" alt="Produto 2">
+        <h3>Produto: Anel de rubi</h3>
+        <p>Anel de rubi, cravejado</p>
         <p><strong>R$ 150,00</strong></p>
         <button>Adicionar ao Carrinho</button>
     </div>
     <div class="product">
-        <img src="https://via.placeholder.com/250" alt="Produto 3">
-        <h3>Produto 3</h3>
-        <p>Descrição do produto 3</p>
+        <img src="https://i.pinimg.com/originals/2a/da/d7/2adad78f42e36d96317a28b776907f92.jpg" alt="Produto 3">
+        <h3>Produto: Pulseria de esmeralda</h3>
+        <p>Pulseira de esmeraldas cravejado</p>
         <p><strong>R$ 200,00</strong></p>
         <button>Adicionar ao Carrinho</button>
     </div>
