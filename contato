@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -95,6 +96,43 @@
     </nav>
 </header>
 
+<section id="contato">
+    <h1>Entre em Contato Conosco</h1>
+    <p>Tem alguma dúvida, sugestão ou precisa de ajuda? Preencha o formulário abaixo ou entre em contato através dos nossos canais de atendimento.</p>
+
+    <h2>Formulário de Contato</h2>
+    <form action="/enviar-contato" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Outros Canais de Contato</h2>
+    <p>Se preferir, entre em contato pelos nossos canais:</p>
+    <ul>
+        <li><strong>E-mail:</strong> joaolokis6@gmail.com</li>
+        <li><strong>Telefone:</strong> (62) 99575-5624</li>
+        <li><strong>WhatsApp:</strong> (62) 99453-3555</li>
+    </ul>
+
+    <h2>Endereço</h2>
+    <p>Av. Fernao Dias Paes Leme 32, S/N, Goiânia, GO, 74450-200</p>
+
+    <div id="mapa">
+        <!-- Embed do Google Maps ou outro mapa, exemplo de localização -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9395955379024!2d-46.674098785024774!3d-23.552117384682175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59fda5ed3d5b%3A0x18a7fd7e75816e6!2sRua%20Exemplo%2C%20123%20-%20Bairro%2C%20Cidade%2C%20Estado!5e0!3m2!1spt-BR!2sbr!4v1583348230137!5m2!1spt-BR!2sbr"></iframe>
+    </div>
+</section>
 
 </body>
 </html>
