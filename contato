@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Online</title>
+    <title>Madame Jade</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -87,12 +87,13 @@
 <body>
 
 <header>
-    <h1>Minha Loja Online</h1>
+    <h1>Madame Jade</h1>
     <nav>
         <a href="index.html">Início</a>
         <a href="produtos.html">Produtos</a>
         <a href="sobre.html">Sobre</a>
         <a href="contato.html">Contato</a>
+        <a href="carrinho.html">Carrinho</a>
     </nav>
 </header>
 
@@ -101,21 +102,40 @@
     <p>Tem alguma dúvida, sugestão ou precisa de ajuda? Preencha o formulário abaixo ou entre em contato através dos nossos canais de atendimento.</p>
 
     <h2>Formulário de Contato</h2>
-    <form action="/enviar-contato" method="post">
+    <form action="/enviar-contato" method="post" id="formulario">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required>
-
+    
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="email" required>
-
+    
         <label for="assunto">Assunto:</label>
         <input type="text" id="assunto" name="assunto" required>
-
+    
         <label for="mensagem">Mensagem:</label>
         <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-
+    
         <button type="submit">Enviar</button>
     </form>
+    
+    <style>
+        /* Torna o formulário em uma coluna */
+        #formulario {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* Espaçamento entre os elementos */
+        }
+    
+        /* Faz com que os inputs ocupem toda a largura disponível */
+        label, input, textarea, button {
+            width: 100%;
+        }
+    
+        button {
+            cursor: pointer; /* Adiciona um cursor de mão no botão */
+        }
+    </style>
+    
 
     <h2>Outros Canais de Contato</h2>
     <p>Se preferir, entre em contato pelos nossos canais:</p>
